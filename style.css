@@ -1,0 +1,40 @@
+
+div{
+    border: 1px solid black;
+    margin: 5px;
+    padding:5px;
+    text-align: center;
+    
+}
+
+.container{
+   background-color: #fbf8cc;
+    min-width: 400px;
+    text-align: center;
+    /* width:100%; */
+    align-items: center;
+    justify-content: center;
+    display: flex
+    
+}
+  
+.screen{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    width: 750px;;
+    
+    
+
+}
+
+body{
+    background-color: #a3c4f3;
+}
+
+.title,.SCORE,.question,.answer{
+    background-color: #ffcfd2;
+}
+  
+  
